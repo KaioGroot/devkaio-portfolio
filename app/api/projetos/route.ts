@@ -18,8 +18,6 @@ type Projeto = {
 
 
 export async function GET() {
-  const file = fs.readFileSync(filePath, "utf-8")
-  const projetos = JSON.parse(file)
 
   //se não encontrar o projeto retornar erro
   if (!projetos) {
