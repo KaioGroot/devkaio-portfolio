@@ -95,7 +95,7 @@ function Field({
           <motion.div
             className="absolute top-0 left-0 h-px bg-white origin-left"
             animate={{ scaleX: focused ? 1 : 0 }}
-            transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] as const }}
+            transition={{ duration: 0.35, ease: "easeOut" }}
           />
 
           {multiline ? (
@@ -197,7 +197,7 @@ function ProjectModal({
         initial={{ opacity: 0, y: 40, scale: 0.97 }}
         animate={{ opacity: 1, y: 0, scale: 1 }}
         exit={{ opacity: 0, y: 20, scale: 0.97 }}
-        transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] }}
+        transition={{ duration: 0.4, ease: "easeOut" }}
         onClick={e => e.stopPropagation()}
         className="relative w-full max-w-xl z-10 max-h-[90vh] overflow-y-auto"
         style={{
@@ -210,7 +210,7 @@ function ProjectModal({
         <motion.div
           initial={{ scaleX: 0 }}
           animate={{ scaleX: 1 }}
-          transition={{ duration: 0.55, ease: [0.22, 1, 0.36, 1] }}
+          transition={{ duration: 0.55, ease: "easeOut"}}
           className="absolute top-0 left-0 right-0 h-px origin-left"
           style={{
             background: isEdit
@@ -347,7 +347,7 @@ function ConfirmDelete({
         initial={{ opacity: 0, scale: 0.95, y: 20 }}
         animate={{ opacity: 1, scale: 1, y: 0 }}
         exit={{ opacity: 0, scale: 0.95 }}
-        transition={{ duration: 0.3, ease: [0.22, 1, 0.36, 1] }}
+        transition={{ duration: 0.3, ease: "easeOut" }}
         onClick={e => e.stopPropagation()}
         className="relative z-10 w-full max-w-sm p-8 flex flex-col gap-6"
         style={{
