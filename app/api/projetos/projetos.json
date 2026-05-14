@@ -1,0 +1,52 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "DevKaio Portfolio",
+      "description": "Portfolio moderno desenvolvido com Next.js, Framer Motion e Tailwind CSS, focado em animações premium, design minimalista e experiência futurística.",
+      "link": "https://kaiowportfolio.wuaze.com",
+      "slug": "devkaio-portfolio",
+      "image": "/fotos/portofolio.png"
+    },
+    {
+      "id": 2,
+      "title": "BrownieBysisters",
+      "description": "Uma landing page para uma empresa de brownies, com design super cinematográfico com animações profissionais, site que gera leads e aumenta vendas.",
+      "link": "https://theoutmarket.wuaze.com/browniebysisters",
+      "slug": "modern-ecommerce",
+      "image": "/fotos/brownie.png"
+    },
+    {
+      "id": 3,
+      "title": "Dashboard Analytics",
+      "description": "Dashboard administrativa moderna com gráficos em tempo real, autenticação e interface minimalista focada em performance.",
+      "link": "https://theoutmarket.wuaze.com",
+      "slug": "dashboard-analytics",
+      "image": "/projects/dashboard.png"
+    },
+    {
+      "id": 4,
+      "title": "Advogada Landing page",
+      "description": "Website super lindo e cativante para advogadas, com design futurístico pensado estrategicamente em converter leads e chamar atenção.",
+      "link": "https://kaiowportfolio.wuaze.com/nikelle",
+      "slug": "doctor-landing-page",
+      "image": "/fotos/advogada.png"
+    },
+    {
+      "id": 1778728667890,
+      "title": "Found My Pet",
+      "description": "Plataforma criada para ajudar tutores a encontrar seus pets perdidos. Permite cadastrar animais desaparecidos, publicar avistamentos e conectar pessoas que encontraram com quem está procurando, venha fazer parte de Found My Pet!",
+      "image": "/fotos/foundmypet.png",
+      "slug": "found-my-pet",
+      "link": "https://found-my-pet-nu.vercel.app/"
+    },
+    {
+      "id": 1778728831886,
+      "title": "NexusBot",
+      "description": "Bot para Discord com sistema completo de economia, cartas colecionáveis em 4 raridades, batalhas PvP, missões diárias, loja customizável e ranking de membros. Tudo via slash commands nativos, 100% gratuito e pronto pra usar em qualquer servidor.",
+      "image": "/fotos/botdiscord.png",
+      "slug": "nexusbot",
+      "link": "https://superservices.wuaze.com/"
+    }
+  ]
+}
