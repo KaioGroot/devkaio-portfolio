@@ -97,7 +97,7 @@ function Field({
           <motion.div
             className="absolute top-0 left-0 h-px bg-white origin-left"
             animate={{ scaleX: focused ? 1 : 0 }}
-            transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
+            transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] as const }}
           />
 
           {multiline ? (
